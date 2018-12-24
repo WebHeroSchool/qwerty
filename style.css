@@ -1,0 +1,92 @@
+body {
+  border: double 5px orange;
+  cursor: pointer;
+}
+ 
+ input {
+  text-indent: 15px;
+  cursor: alias;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 5px 15px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.4s ease-in-out;
+  background: #00BFFF;
+  font-family: Luminari, fantasy;
+}
+
+.header {
+  font-family: Luminari, fantasy;
+  border: double 5px orange;
+  text-align: center;
+  font-size: 22px;
+  color: beige;
+  font-weight: bold;
+  background-image: url(http://www.gamer.ru/system/attached_images/images/000/713/580/original/overwatch.jpg);
+  background-size: 100%;
+}
+
+.header__title {
+  color: #00BFFF;
+  font-family: Luminari, fantasy;
+  text-decoration: underline;
+}
+
+.header__paragraph {
+  color: #FFD700;
+}
+
+p:first-letter {
+  font-size: 2em;
+  margin-right: 2px; 
+  color: #FFD700;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+}
+
+.section {
+  font-family: Luminari, fantasy;
+  border: double 5px orange;
+  text-align: center;
+  font-size: 22px;
+  color: beige;
+  font-weight: bold;
+  background-image: url(https://gameguru.ru/f/wallpapers/3/1/19/36/1680.jpg?11460552355);
+  background-size: 100%;
+}
+
+.section__title {
+  color: #00BFFF;
+  font-family: Luminari, fantasy;
+}
+
+.section__paragraph {
+  color: #FFD700;
+  font-variant: small-caps;
+}
+
+ footer {
+  height: 240px;
+}
+
+.footer {
+  font-family: Luminari, fantasy;
+  border: double 5px orange;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900px;
+  color: #00BFFF;
+  background-image: url(https://prooverwatch.ru/wp-content/uploads/2018/02/ce1763642875fa9baf40236130a584c7-overwatch-landing-header-bg.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer__paragraph {
+  color: #FFD700;
+  font-variant: small-caps;
+}
